@@ -1,0 +1,32 @@
+root
+ |-- name: string (nullable = true)
+ |-- country: string (nullable = true)
+ |-- subcountry: string (nullable = true)
+ |-- geonameid: integer (nullable = true)
+
++------------------+----------+----+
+|country           |subcountry|cnt |
++------------------+----------+----+
+|United States     |51        |3308|
+|India             |35        |2484|
+|China             |31        |1966|
+|Brazil            |27        |1319|
+|Germany           |16        |1119|
+|Russian Federation|83        |1103|
+|Japan             |47        |917 |
+|United Kingdom    |4         |853 |
+|Spain             |19        |735 |
+|France            |13        |669 |
+|Mexico            |32        |640 |
+|Italy             |20        |614 |
+|Philippines       |17        |486 |
+|Indonesia         |37        |408 |
+|Türkiye           |81        |400 |
+|Malaysia          |16        |351 |
+|Poland            |16        |337 |
+|Canada            |12        |336 |
+|Pakistan          |6         |318 |
+|Colombia          |32        |314 |
++------------------+----------+----+
+only showing top 20 rows
+
